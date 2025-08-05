@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas:
+            cm, mm, in(polegada), px, pt(ponto), pc(paica)
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+
+            Recomendação oficial W3C:
+            px, em
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* weight=peso, width= , height= */
+            font-weight: 1em;
+            /* lighter normal bold  bolder */
+
+            
+        } 
+
+        h1 {
+            /* font-style: italic;
+            font-weight: bolder;
+            font-size: 2em;
+            font-family: 'Times New Roman', Times, serif; */
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 2em 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            font: bold 1.5em 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore a sint accusamus aliquid quam provident, dolorem dolorum pariatur, voluptas ipsa assumenda, exercitationem laudantium eaque dicta minima consequatur repellat ut rem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore a sint accusamus aliquid quam provident, dolorem dolorum pariatur, voluptas ipsa assumenda, exercitationem laudantium eaque dicta minima consequatur repellat ut rem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore a sint accusamus aliquid quam provident, dolorem dolorum pariatur, voluptas ipsa assumenda, exercitationem laudantium eaque dicta minima consequatur repellat ut rem.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore a sint accusamus aliquid quam provident, dolorem dolorum pariatur, voluptas ipsa assumenda, exercitationem laudantium eaque dicta minima consequatur repellat ut rem.</p>
+</body>
+</html>

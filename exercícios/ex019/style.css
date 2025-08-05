@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é # 
+    em HTML é class = em CSS é . 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;  1&    display=swap');
+
+body {
+    background-color: #ecd6aa31;
+}
+
+h1 {
+    font: bold 2em "Instrument Serif", serif;
+    color: rgb(110, 21, 21);
+    text-shadow: 1px 1px 1px rgba(110, 21, 21, 0.295);
+}
+
+#titulo_principal {
+    font: bold 3em "Instrument Serif", serif;
+    text-align: center;
+    background-color: #645B48;
+    color: white;
+    border-radius: 10px;
+} 
+
+.basico {
+    font: normal 1.6em Arial, sans-serif;
+    color: rgb(34, 184, 34);
+    background-color: rgba(34, 184, 34, 0.144);
+}
+
+.intermediario {
+    font: normal 1.6em Arial, sans-serif;
+    color: rgb(7, 7, 211);
+    background-color: rgba(7, 7, 211, 0.226);
+}
+
+.avancado {
+    font: normal 1.6em Arial, sans-serif;
+    color: rgb(255, 10, 10);
+    background-color: rgba(255, 10, 10, 0.288); 
+}
+
+.tamanho {
+    width: 250px;
+    border-radius: 10px;
+}
+
+p {
+    font: normal 1em Arial, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
