@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Teste</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+        }
+        
+        div p {
+            font: bold 1em Arial;
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .q {
+            background-color: blue;
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+        }
+
+        #q1 {
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            transform: translate(0%, 0%);
+        }
+
+        #q2 {
+            position: absolute;
+            left: 50%;
+            top: 0%;
+            transform: translate(-50%, 0p%);
+        }
+
+        #q3 {
+            position: absolute;
+            left: 100%;
+            top: 0%;
+            transform: translate(-100%, 0%);
+        }
+
+        #q4 {
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+
+        #q5 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #q6 {
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            transform: translate(-100%, -50%);
+        }
+
+        #q7 {
+            position: absolute;
+            left: 0%;
+            top: 100%;
+            transform: translate(0%, -100%);
+        }
+
+        #q8 {
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translate(-50%, -100%);
+        }
+
+        #q9 {
+            position: absolute;
+            left: 100%;
+            top: 100%;
+            transform: translate(-100%, -100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="q" id="q1"><p>LEFT TOP</p></div>
+    <div class="q" id="q2"><p>CENTER TOP</p></div>
+    <div class="q" id="q3"><p>RIGTH TOP</p></div>
+    <div class="q" id="q4"><p>LEFT CENTER</p></div>
+    <div class="q" id="q5"><p>CENTER</p></div>
+    <div class="q" id="q6"><p>RIGTH CENTER</p></div>
+    <div class="q" id="q7"><p>LEFT BOTTOM</p></div>
+    <div class="q" id="q8"><p>CENTER BOTTOM</p></div>
+    <div class="q" id="q9"><p>RIGTH BOTTOM</p></div>
+</body>
+</html>
